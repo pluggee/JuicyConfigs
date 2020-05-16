@@ -72,7 +72,7 @@ stepmotor_1_decay_mode                       fast
 extruder.hotend0.steps_per_mm                104.65            # Steps per mm for extruder stepper
 extruder.hotend0.default_feed_rate           800              # Default rate ( mm/minute ) for moves where only the extruder moves
 extruder.hotend0.acceleration                3000              # Acceleration for the stepper motor, as of 0.6, arbitrary ratio
-extruder.hotend0.max_speed                   500               # mm/s
+extruder.hotend0.max_speed                   5000               # mm/min
 extruder.hotend0.x_offset                    0                # x offset from origin in mm
 extruder.hotend0.y_offset                    0                # y offset from origin in mm
 extruder.hotend0.z_offset                    0                # z offset from origin in mm
@@ -109,7 +109,7 @@ stepmotor_7_decay_mode                       fast
 extruder.hotend1.steps_per_mm                104.65            # Steps per mm for extruder stepper
 extruder.hotend1.default_feed_rate           600              # Default rate ( mm/minute ) for moves where only the extruder moves
 extruder.hotend1.acceleration                3000              # Acceleration for the stepper motor, as of 0.6, arbitrary ratio
-extruder.hotend1.max_speed                   500               # mm/s
+extruder.hotend1.max_speed                   5000               # mm/min
 extruder.hotend1.x_offset                    0                # x offset from origin in mm
 extruder.hotend1.y_offset                    100                # y offset from origin in mm
 extruder.hotend1.z_offset                    0                # z offset from origin in mm
